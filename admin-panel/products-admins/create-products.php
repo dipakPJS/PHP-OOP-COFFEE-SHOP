@@ -72,6 +72,7 @@ if (isset($_POST['create_product'])) {
 
           <!-- Submit button -->
           <button type="submit" name="create_product" class="btn btn-primary  mb-4 text-center">Create Product</button>
+          <a href="<?= APP_URL ?>products-admins/show-products.php" class="btn btn-dark mb-4 ms-2 text-center">Cancel</a>
 
 
         </form>
