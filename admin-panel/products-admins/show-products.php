@@ -33,6 +33,7 @@ $showProducts = $dataPost->showAdminProducts();
               <th scope="col">image</th>
               <th scope="col">price</th>
               <th scope="col">type</th>
+              <th scope="col">update</th>
               <th scope="col">delete</th>
             </tr>
           </thead>
@@ -54,6 +55,7 @@ $showProducts = $dataPost->showAdminProducts();
               <td><img src="images/<?= $data['product_image']; ?>" style = "width: 60px; height: 60px" alt="product-image"></td>
               <td>$<?= $data['price']; ?></td>
               <td><?= $data['type']; ?></td>
+              <td><a href="update-products.php/?id=<?= $data['id']; ?>" class="btn btn-danger  text-center ">Update</a></td>
               <td><a href="delete-products.php/?id=<?= $data['id']; ?>" class="btn btn-danger  text-center ">Delete</a></td>
             </tr>
             <!-- php code ends here -->
