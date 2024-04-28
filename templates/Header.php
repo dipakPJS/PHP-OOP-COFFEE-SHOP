@@ -97,6 +97,7 @@ define("IMAGEPRODUCTS", "http://localhost/coffee-blend/admin-panel/products-admi
                 <li><a class="dropdown-item" href="<?= APP_URL; ?>auth/logout.php">Logout</a></li>
               </ul>
             </li>
+          <li class="nav-item"><a href="<?= APP_URL; ?>admin-panel" class="btn btn-primary py-2 px-5 text-white mt-3 nav-link" target="_blank">Admin</a></li>
 
           <?php
 
