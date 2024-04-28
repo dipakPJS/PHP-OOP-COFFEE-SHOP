@@ -68,6 +68,7 @@ if(isset($_SESSION['userName'])){
               <div class="form-group mt-4">
                 <div class="radio">
                   <button name="login" class="btn btn-primary py-3 px-4">Login</button>
+                   <p>If you don't have an account, <a href="<?= APP_URL; ?>auth/register.php" class="text-primary">Register</a> here</p>
                 </div>
               </div>
             </div>
